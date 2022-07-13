@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pas_flutter_ifpr22/ui/screens/lista_tarefa/lista_tarefa.dart';
 
 import 'ui/screens/menu/menu_page.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MenuPage(),
+      home: const ListaTarefa(),
     );
   }
 }
